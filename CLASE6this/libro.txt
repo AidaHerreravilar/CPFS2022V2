@@ -1,0 +1,10 @@
+libro1 - {
+
+"name" :"Cien Años de Soledad", 
+"page" : 916
+},
+libro2 - {
+
+"name" : "El Coronel No Tiene Quien Le Escriba", 
+"page" : 102
+}
