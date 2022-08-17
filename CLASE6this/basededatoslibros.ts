@@ -1,4 +1,4 @@
-export class libro {
+export class Libro {
     private nombre: string;
     private totalPaginas: number;
     constructor(nombre: string, paginas: number) {
