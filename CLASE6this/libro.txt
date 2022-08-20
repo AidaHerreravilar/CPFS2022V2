@@ -1,10 +1,12 @@
 libro1 - {
 
 "name" :"Cien Años de Soledad", 
+"author": Gabriel García Márquez,
 "page" : 916
 },
 libro2 - {
 
 "name" : "El Coronel No Tiene Quien Le Escriba", 
+"author": Gabriel García Márquez,
 "page" : 102
 }
