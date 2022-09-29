@@ -1,0 +1,274 @@
+.menuCSS3 ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-shadow: 0 0 0;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: #1369b9 0 5px 0 0;
+  background-color: rgba(69, 121, 234, 0.883);
+  box-shadow: #1369b9 0 10px 0 0;
+
+}
+
+
+.menuCSS3 a {
+  display: block;
+  padding: 2em;
+  background-color: #8098e0;
+  text-decoration: none;
+  color: #f4f5f6;
+  box-shadow: 0 0 0;
+  border-radius: 10px 5px 5px 10px;
+  box-shadow: #1369b9 0 5px 0 0;
+}
+
+.menuCSS3 a:hover {
+  background-color: #2b4fdd;
+  box-shadow: 0 0 0;
+  border-radius: 10px 10px 10px 210px;
+  box-shadow: #1369b9 0 5px 0 0;
+}
+
+.menuCSS3 ul li ul {
+  display: none;
+  box-shadow: 0 0 0;
+  border-radius: 10px 5px 5px 10px;
+  box-shadow: #1369b9 0 5px 0 0;
+}
+
+.menuCSS3 ul li a:hover+ul,
+.menuCSS3 ul li ul:hover {
+  display: block;
+  box-shadow: 0 0 0;
+  border-radius: 20px 20px 20px 20px;
+}
+
+header {
+  display: flex;
+  background-image: url("portada.jpg");
+  width: 20px;
+  border-radius: 20px 20px 20px 20px;
+  height: 465px;
+  background-size: contain;
+  border-radius: 0 0 20px 0;
+  align-content: flex-end;
+
+
+}
+
+#perfil {
+
+  background-image: url("perfil.png");
+  width: 250px;
+  height: 250px;
+  border-radius: 200%;
+  align-self: baseline;
+  left: 150px;
+  top: 250px;
+  position: absolute;
+  border-radius: 10px 100 px 100px 150px;
+  box-shadow: 21px 0 0 0;
+  border-radius: 21px 100px;
+  color: rgb(70, 163, 240);
+
+}
+
+
+.imagen:hover {
+  border-radius: 1200%;
+  -webkit-border-radius: 90%;
+  box-shadow: 0px 0px 15px 15px #f70505;
+  -webkit-box-shadow: 0px 0px 15px 15px #0b5ef7;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+#menu {
+  background-color: rgb(125, 185, 241);
+  border-radius: 2px 2px 20x 2px;
+}
+
+#menu ul li {
+  display: inline-block;
+  padding: 5px;
+  box-shadow: #bad7f3 0 5px 0 0;
+}
+
+#menu ul li a {
+  color: rgb(249, 251, 246);
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  border-radius: 20px 100px 1px 150px;
+  box-shadow: #3080cc 0 10px 0 0;
+  align-content: flex-end;
+}
+
+#menu ul li a:hover {
+  background-color: rgba(69, 121, 234, 0.883);
+  box-shadow: 0 0 0;
+}
+
+.productos {
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgb(72, 138, 223);
+  padding: 10px;
+  position: relative;
+  border-radius: 20px 100 px 100px 150px;
+  box-shadow: 20px 0 0 0;
+  border-radius: 20px 100px;
+  margin-bottom: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-align: start;
+
+}
+
+* {
+  margin: 1px;
+  padding: 1px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  box-shadow: #6f9bc5 0 4px 0 0;
+
+
+}
+
+h1 {
+  color: rgb(109, 103, 103);
+  text-align: initial;
+}
+
+.row {
+  width: 20%;
+  background-color: rgb(166, 167, 164);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 2px;
+  border: 1px solid rgb(172, 174, 172);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: rgb(78, 76, 78);
+  flex-direction: row-reverse;
+}
+
+
+.flat-form {
+  background: rgb(72, 138, 223);
+  color: white;
+  margin: 25px auto;
+  width: 500px;
+  height: 250px;
+  position: relative;
+  font-family: 'Roboto';
+  border-radius: 20px 20px 20px 20px;
+
+}
+
+
+.form-action {
+  padding: 0 20px;
+  position: relative;
+}
+
+p {
+  font-size: 13px;
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+
+.fa-facebook {
+  background: #1877f2;
+}
+
+.fa-linkedin {
+  background: #0a66c2;
+}
+
+.fa-twitter {
+  background: #1da1f2;
+}
+
+.fa-instagram {
+  background: #c32aa3;
+}
+
+.fa-youtube {
+  background: #ff0000;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes i {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.redes a {
+  text-decoration: none;
+}
+
+.redes i:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: .9;
+  border-radius: 20%;
+}
+
+
+
+
+body {
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 15px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: rgb(253, 253, 253);
+}
+
+
+.bt1 {
+  padding: 3px;
+}
+
+.bt2 {
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.bt3 {
+  padding: 3px;
+  border-radius: 20%;
+}
+
+.btb {
+  background-color: rgb(61, 61, 183);
+  color: white;
+  width: 120px;
+}
+
+.btg {
+  background-color: rgb(70, 112, 237);
+  color: white;
+  font-size: 1.2em;
+  padding: 12px;
+}

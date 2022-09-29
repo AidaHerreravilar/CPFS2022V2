@@ -1,0 +1,41 @@
+Pregunta1 - {
+    Enumere tres funcionalidades de npm y describirlas
+
+   npm es el Node Package Manager que viene incluido y ayuda a cada desarrollo asociado a Node.
+Tres funcionalidades
+
+   npm install -g npm sirve para descargar la última versión de npm.
+
+npm install <nombre_del_paquete>
+Para instalar un nuevo paquete, puedes utilizar npm install seguido del nombre del paquete. Puedes encontrar el nombre del paquete en el sitio web de npm.  También puedes utilizar “npm i <paquete>” para instalar, “npm un <paquete>” para desinstalar, “npm up <paquete>” para actualizar.
+
+   npm init
+Puedes utilizar npm init para configurar un paquete de npm nuevo o uno existente. npm init crea un fichero package.json
+},
+
+Pregunta2 - {
+    ¿Cuál es el beneficio de usar un lenguaje con tipos?
+
+    Una ventaja es que no tienes que "complicarte la vida" declarando los tipos de variable, se cambian de uno a otro según la necesidad que tengas.
+
+    Desventajas que usas más memoria y que se pueden dar errores si intentas conversiones sin sentido.
+},
+
+Pregunta3 - {
+    ¿A qué se llama variable interna?. ¿Por qué internas?
+
+    Son factores, atributos o características del propio individuo que influyen en el proceso de decisión de compra y en el comportamiento de uso del producto
+    Son características, atributos que permiten distinguir un hecho o fenómeno de otro, con la finalidad de poder ser analizados. 
+},
+
+Pregunta4 - {
+   Explicar la diferencia entre composición y herencia.
+   La composición es fundamentalmente diferente de la herencia. Cuando se utiliza la composición, se está (como señalan las otras respuestas) haciendo una " tiene-un " entre dos objetos, a diferencia de la relación " es-un " que se hace cuando se utiliza la herencia.
+   La composición y la herencia son características fundamentales de la Programación Orientada a Objetos(POO), que nos proporciona el mecanismo para relacionar código partiendo de otras clases existentes. En este artículo veremos el porqué del principio de utilizar la composición sobre la herencia.
+
+},
+
+Pregunta5 - {
+   Explicar el mecanismo que provee TypeScript para manejar casos en donde los parámetros que le llegan a un método son inválidos.
+    Métodos que solicitan parámetros: son métodos que nos piden algo (uno o varios datos u objetos). Es decir, el método para ejecutarse necesita que se le envíe un parámetro de un tipo concreto.
+}
